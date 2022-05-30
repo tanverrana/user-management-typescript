@@ -23,7 +23,7 @@ interface person1 {
   job: string,
   age: number
 }
-const person1: person1 = {
+const Person1: person1 = {
   name: "tanver",
   job: "jobless",
   age: 21
