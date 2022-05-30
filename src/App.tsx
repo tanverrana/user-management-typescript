@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Counter from './components/Counter';
 
 
 
@@ -22,16 +23,18 @@ interface person1 {
   job: string,
   age: number
 }
-const person: person1 = {
+const person1: person1 = {
   name: "tanver",
   job: "jobless",
   age: 21
 }
 
+
+
 function App() {
   return (
     <div className="App">
-
+      <Counter></Counter>
     </div>
   );
 }
