@@ -10,14 +10,14 @@ const Counter = () => {
     const handleIncrease = (): void => {
         setCount(counter + 1);
     }
-    const handleUserSubmit = (e) => {
+    /* const handleUserSubmit = (e) => {
         e.preventDefault();
         const userData = {
             name: "tanver",
             job: "dev"
         }
         setUser(userData);
-    }
+    } */
 
     return (
         <div>
